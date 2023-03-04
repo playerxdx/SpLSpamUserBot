@@ -3,7 +3,9 @@ _yashu () {
 }
 
 _alpha () {
-    rm -r SPAM
+    if [ -d "SPAM" ]; then  
+        rm -r SPAM
+    fi
     git clone $(_yashu) SPAM 
     echo "Configuring Environment..."
     rm SPAM/config.py
