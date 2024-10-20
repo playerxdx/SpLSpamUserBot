@@ -18,7 +18,7 @@ class TOKENS:
     STRING_SESSION_10 = os.getenv("STRING_SESSION_10", "BQGqxQoAHrONUcNBUHhOTaNZDkcSyi_FpVOGO7zrDjyUm-J-juqRgVBnI4dJLPatYcS6ZCN7RjOEcDu3cIUPvCsqJ2B3pgCIZa7AXMpL3JUkeRwE9clpJqDF3OV8fLgxq-esZX-rU4jAVb4sHhMaJRy3A80HXYaQm1WskB-i9cYS-9GlPGcPMw4DweHHSrmK0bs6QgXrgqmmyA_Ef2Ds-AdmE0f5_ZrvJ49g9Ej9Ga0SsOuuaQwyk6JSd6Wuvrgl_nU6_bmelhDGiy1ydQY5BPlNnSodSobuWXxUoxEGZLmINslc5gyBPLu2VSIlVzI_roIVtVF1e9zso5mbYtEswuX-BTEW9AAAAAG4NOvwAA")
 
 class DATABASE:
-    MONGO_DB_URL = os.getenv("MONGO_DB_URL", "mongodb+srv://Carbon:Carbon@carbon.vdhxofd.mongodb.net/?retryWrites=true&w=majority")
+    MONGO_DB_URL = os.getenv("MONGO_DB_URL", "mongodb+srv://Felix_xd500:NgtpIfNiTvK5jxLk@cluster0.cgts3ce.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 class DEV:
     OWNER_ID = int(os.getenv("OWNER_ID", "7100217891"))
